@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>za.devinspire.vendor.devinspire</groupId>
+  <artifactId>devinspire-sdk</artifactId>
+  <version>1.0.6</version>
+  <packaging>aar</packaging>
+  <description>POM was created from install:install-file</description>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>za.devinspire.vendor.sunmi</groupId>
+      <artifactId>sunmi-pay-sdk</artifactId>
+      <version>2.0.17</version>
+      <type>aar</type>
+      <scope>runtime</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>za.devinspire.vendor.feitian</groupId>
+      <artifactId>feitian-sdk</artifactId>
+      <version>1.0.1.35</version>
+      <type>jar</type>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+ 
+</project>
