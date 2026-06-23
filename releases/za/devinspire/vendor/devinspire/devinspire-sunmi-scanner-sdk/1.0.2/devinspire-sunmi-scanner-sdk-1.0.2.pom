@@ -7,4 +7,14 @@
   <version>1.0.2</version>
   <packaging>aar</packaging>
   <description>POM was created from install:install-file</description>
+
+   <dependencies>
+    <dependency>
+      <groupId>za.devinspire.vendor.sunmi</groupId>
+      <artifactId>sunmiscan</artifactId>
+      <version>1.5.8</version>
+      <type>jar</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies> 
 </project>
