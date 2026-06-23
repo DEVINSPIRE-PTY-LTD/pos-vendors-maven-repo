@@ -40,7 +40,14 @@
     <type>jar</type>
     <scope>compile</scope>
   </dependency>
-  
+
+  <dependency>
+  <groupId>com.google.mlkit</groupId>
+  <artifactId>barcode-scanning</artifactId>
+  <version>17.3.0</version>
+  <scope>runtime</scope>
+</dependency>
+
 </dependencies>
 
 </project>
