@@ -4,13 +4,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>za.devinspire.vendor.devinspire</groupId>
   <artifactId>devinspire-sdk</artifactId>
-  <version>1.0.14</version>
+  <version>1.0.15</version>
   <packaging>aar</packaging>
   <description>POM was created from install:install-file</description>
 
-
-
-  <dependencies>
+<dependencies>
   <dependency>
     <groupId>za.devinspire.vendor.sunmi</groupId>
     <artifactId>sunmi-pay-sdk</artifactId>
@@ -42,6 +40,7 @@
     <type>jar</type>
     <scope>compile</scope>
   </dependency>
-
+  
 </dependencies>
+
 </project>
